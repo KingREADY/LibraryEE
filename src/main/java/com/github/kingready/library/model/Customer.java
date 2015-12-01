@@ -1,11 +1,12 @@
 package com.github.kingready.library.model;
 
 import com.github.kingready.library.model.embedded.Address;
-import com.sun.xml.internal.bind.annotation.OverrideAnnotationOf;
 
-import javax.persistence.*;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 import javax.validation.Valid;
-import java.util.Enumeration;
 import java.util.LinkedList;
 import java.util.List;
 

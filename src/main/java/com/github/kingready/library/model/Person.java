@@ -1,9 +1,6 @@
 package com.github.kingready.library.model;
 
-import com.github.kingready.library.model.validator.ZipCode;
-
 import javax.persistence.*;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
